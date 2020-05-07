@@ -1,20 +1,20 @@
 //
 //  AppDelegate.swift
-//  HelloWorld
+//  Covid-19_Project
 //
-//  Created by Gustav Vingtoft Andersen on 07/02/2020.
-//  Copyright © 2020 Gustav Vingtoft Andersen. All rights reserved.
+//  Created by Thomas Vindelev on 01/05/2020.
+//  Copyright © 2020 KEA. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        print("Application did finish launching")
+        FirebaseApp.configure()
         return true
     }
 
